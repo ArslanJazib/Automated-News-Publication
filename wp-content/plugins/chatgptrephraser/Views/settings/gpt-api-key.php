@@ -1,0 +1,1 @@
+<input type="password" name="gpt_api_key" value="<?php echo esc_attr($apiKey) ?>" />

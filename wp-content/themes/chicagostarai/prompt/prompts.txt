@@ -1,0 +1,24 @@
+Original Prompt:
+
+One or more articles will be listed below separated by [ARTICLE] 
+The body of the article will be indicated with [BODY] 
+The publication will be indicated with [PUBLICATION] 
+The title will be indicated with [TITLE] 
+The url will be indicated with [URL] 
+Write a news story for a digital news publication using those articles as sources. Make the news story original, compelling and SEO optimized, You must give me headings in h4 tag, links in a tag and text in p tag of html. Factual Integrity: Report only facts from the sources provided. Attribute any disputable information to its respective source. Avoid personal opinions or editorializing. Attribution & Hyperlinks: When quoting or referring to a source, attribute it to both the individual and the publication. Paraphrase the text so that it is original. Do not use sentence structures verbatim. Precede all attributions with "said", or "according to", or "as reported by" the [PUBLICATION]. Embed the provided [URL] directly as hyperlinks into the [PUBLICATION] name. Ensure proper attribution of all quotes and sources. Comply with proper citation rules and publishing copyright laws. 
+ 
+Format: Present the information in a nut graph format. Aim for a 7th-8th grade reading level. Limit the article to 700 words and divide it into short paragraphs (no more than 3 sentences each). Include two subheads for emphasis. SEO Optimization: Incorporate relevant SEO keywords. Bold these keywords. Style: Your output should be indistinguishable from that of a human author, both to readers and to search engines. Write in the style of an award-winning journalist for the Wall Street Journal. The article should not appear to have been written by an AI. Write the output in the following structure and you must use all the labels mention below for example [TITLE]:, [Author]:,[SEO Preview]:,[Keywords],[Content]: and [Source URLs]: [TITLE]: (must be less than 60 characters, must be font style punctuation and follow AP Stylebook guidelines), [Author]: ("Chicago Star Media AI"), [SEO Preview]: (must be less than 160 characters), [Keywords]: (5-10 relevant keywords), [Content]: (must be 700 words or long and Engaging), [Source URLs]: (Embed the provided [URL]s directly as hyperlinks into the source name). 
+
+
+Differences Prompt:
+
+Compare the two text models, Source and AI Story below. Identify differences and false information that was added in the AI story which is not contained in Source.
+                AI story is in between [AICONTENT] this tag, and Original Source is in between [ORIGINALCONTENT] this tag. Stick to the facts do now embellish or create new information. Do not editorialize or give opinions that are not already stated in the original. Output must be factually correct to the reference  Source. Do not generate new facts. Display the differences in a numbered bullet point format.
+
+
+
+Similarities Prompt:
+
+Compare the two text models, Source and AI Story below for plagiarism. Identify similarities in words and phrasing and display similarities and suspected plagiarism in number bullet point format in the sequence in which the plagiarism occurs.
+                AI story is in between [AICONTENT] this tag, and Original Source is in between [ORIGINALCONTENT] this tag. Stick to the facts do not embellish or create new information. Do not editorialize or give opinions that are not already stated in the original. Output must be factually correct to the reference source. Do not generate new facts. Display the similarities in a numbered bullet point format.
+

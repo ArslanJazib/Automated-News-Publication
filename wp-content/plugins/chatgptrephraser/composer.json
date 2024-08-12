@@ -1,0 +1,11 @@
+{
+    "name": "me/rssfeedsfetcher",
+    "description": "Plugin to extract and manage content using scraper api from rss feeds",
+    "type": "project",
+    "license": "GPL",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"GPT\\": ""}
+    }
+}

@@ -1,0 +1,212 @@
+// section section-testimonail css
+.section-testimonail {
+  background-image: url(../images/testimonail-bg.png);
+  padding: 160px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include media-breakpoint-down(md) {
+    padding: 90px 0 151px;
+  }
+
+  @include media-breakpoint-down(xs) {
+    padding: 60px 0 123px;
+  }
+
+  .head {
+    width: 100%;
+    max-width: 601px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 65px;
+
+    @include media-breakpoint-down(xs) {
+      margin-bottom: 31px;
+    }
+
+    h3 {
+      text-align: center;
+      color: $fill-white;
+    }
+    h2 {
+      color: $fill-white;
+      text-align: center;
+    }
+    p {
+      font-family: $font-family-base;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: -0.02em;
+      text-align: center;
+      color: $fill-white;
+    }
+  }
+
+  .sliders {
+    width: 100%;
+    max-width: 1165px;
+    margin: 0 auto;
+
+    .slide-btn {
+      background: $dark-card;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    button:focus:not(:focus-visible) {
+      background: $brand-primary;
+      box-shadow: 4px 8px 24px 0px #246bfd40;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+      top: 370px;
+      opacity: 1;
+
+      @include media-breakpoint-down(xs) {
+        top: 555px;
+      }
+
+      @include media-breakpoint-down(xxs) {
+        top: 614px;
+      }
+    }
+
+    .carousel-control-next {
+      right: 45%;
+
+      @include media-breakpoint-down(xl) {
+        right: 43%;
+      }
+      @include media-breakpoint-down(md) {
+        right: 39%;
+      }
+      @include media-breakpoint-down(xs) {
+        right: 37%;
+      }
+      @include media-breakpoint-down(xxs) {
+        right: 35%;
+      }
+    }
+
+    .carousel-control-prev {
+      left: 45%;
+
+      @include media-breakpoint-down(xl) {
+        left: 43%;
+      }
+
+      @include media-breakpoint-down(md) {
+        left: 39%;
+      }
+      @include media-breakpoint-down(xs) {
+        left: 35%;
+      }
+      @include media-breakpoint-down(xxs) {
+        left: 34%;
+      }
+    }
+    .slide-inner {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+
+      @include media-breakpoint-down(xs) {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 13px;
+      }
+
+      .slide-card {
+        background: $dark-card;
+        padding: 32px;
+
+        @include media-breakpoint-down(md) {
+          padding: 15px;
+        }
+
+        h4 {
+          font-family: $font-family-base;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 27px;
+          letter-spacing: -0.02em;
+          margin-bottom: 16px;
+          color: $fill-white;
+          @include media-breakpoint-down(md) {
+            font-size: 16px;
+            margin-bottom: 11px;
+          }
+        }
+
+        p {
+          font-family: $font-family-base;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: -0.02em;
+          margin-bottom: 34px;
+          color: #f3f5f7;
+          @include media-breakpoint-down(md) {
+            font-size: 14px;
+            margin-bottom: 18px;
+          }
+        }
+      }
+
+      .slide-media {
+        display: flex;
+        padding: 32px 0 0 0;
+        align-items: center;
+        border-top: 1px solid #7374764d;
+
+        @include media-breakpoint-down(md) {
+          padding: 24px 0 0 0;
+        }
+
+        .media {
+          width: 100%;
+          max-width: 70px;
+          margin-right: 24px;
+
+          @include media-breakpoint-down(md) {
+            max-width: 54px;
+            margin-right: 23px;
+          }
+
+          img {
+            border-radius: 12px;
+          }
+        }
+
+        .slide-intro {
+          width: 100%;
+          max-width: 220px;
+
+          h5 {
+            font-family: $font-family-base;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            letter-spacing: -0.03em;
+            color: $fill-white;
+
+            @include media-breakpoint-down(md) {
+              font-size: 15px;
+            }
+          }
+          h6 {
+            font-family: $font-family-base;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: -0.02em;
+            color: #c3d4e9;
+          }
+        }
+      }
+    }
+  }
+}

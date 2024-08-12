@@ -1,0 +1,1 @@
+<input type="text" name="token_uri" value= "<?php echo esc_attr($value) ?>" />

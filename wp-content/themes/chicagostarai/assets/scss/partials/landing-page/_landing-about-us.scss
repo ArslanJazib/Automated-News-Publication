@@ -1,0 +1,71 @@
+// section about-us css
+
+.section-about-us {
+  padding: 116px 0;
+
+  @include media-breakpoint-down(lg) {
+    padding: 70px 0;
+    text-align: center;
+  }
+  @include media-breakpoint-down(xs) {
+    padding: 35px 0;
+  }
+
+  .about-us-left-side {
+    width: 100%;
+    max-width: 481px;
+
+    @include media-breakpoint-down(lg) {
+      max-width: 100%;
+      margin-bottom: 38px;
+    }
+
+    h3 {
+      color: $brand-primary;
+      margin-bottom: 18px;
+    }
+    h2 {
+      margin-bottom: 30px;
+    }
+    p {
+      font-family: $font-family-base;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 27px;
+      letter-spacing: -0.02em;
+      margin-bottom: 30px;
+    }
+    a {
+      background: $brand-primary;
+      padding: 5px 19px;
+      height: 52px;
+      border-radius: 30px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 250px;
+      color: #ffffff;
+      transition: all 0.3s ease-in-out;
+
+      span {
+        margin-left: 6px;
+      }
+
+      @include media-breakpoint-down(lg) {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .about-us-right-side {
+    width: 100%;
+    max-width: 758px;
+  }
+}

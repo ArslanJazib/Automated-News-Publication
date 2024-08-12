@@ -1,0 +1,22 @@
+/*!
+Theme Name: chicagostarai
+Theme URI: http://underscores.me/
+Author: Bilal Khalid
+Author URI: http://underscores.me/
+Description: \"ChicagoStarai\" is a custom WordPress theme based on starter theme called _s meticulously designed to offer a perfect blend of style and functionality. Built on an Advanced Custom Fields (ACF) block-based structure, it provides you with the flexibility to craft unique and dynamic content.  The theme features jQuery data tables for interactive and organized page listings, Bootstrap 5 for a modern and responsive design, and utilizes the WP-SCSS compile plugin for efficient and clean styling with SCSS. This combination ensures a visually appealing and user-friendly experience for your website visitors.  Notably, \"ChicagoStarai\" streamlines the user experience by automatically creating and removing necessary pages upon activation and deactivation, respectively. This thoughtful design approach simplifies the setup process and ensures a smooth transition when managing your website. The theme is developed to enhance the functionalities offered by chatgptrephraser, gmailapiconnector and rssfeedsfetcher plugins
+Version: 1.0.0
+Requires PHP: 8.2
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: chicagostarai
+Tags: Custom Design, ACF Blocks, jQuery Data Tables, Bootstrap 5, WP-SCSS Compile Plugin, Flexible Content Creation, SCSS
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+chicagostarai is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/

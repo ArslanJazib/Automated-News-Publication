@@ -1,0 +1,49 @@
+// landing-page tutorial scss
+
+.section-tutorial {
+  padding: 40px 0;
+  background-image: url(../images/tutotial.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .head {
+    width: 100%;
+    max-width: 822px;
+    margin: 0 auto;
+
+    h3 {
+      text-align: center;
+      color: $brand-primary;
+      margin-bottom: 22px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 54px;
+      text-transform: uppercase;
+      line-height: 60px;
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 45px;
+        line-height: 46px;
+      }
+    }
+  }
+
+  .mac-video {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  .modal-dialog {
+    max-width: 950px;
+    margin: 5.1rem auto;
+
+    .modal-content {
+      background: transparent;
+    }
+  }
+  iframe {
+    width: 100%;
+    min-height: 400px;
+  }
+}

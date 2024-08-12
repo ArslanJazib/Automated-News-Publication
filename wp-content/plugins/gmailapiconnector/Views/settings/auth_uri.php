@@ -1,0 +1,1 @@
+<input type="text" name="auth_uri" value= "<?php echo esc_attr($value) ?>" />

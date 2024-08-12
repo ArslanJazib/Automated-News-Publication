@@ -1,0 +1,1 @@
+<input type="text" name="auth_provider_x509_cert_url" value= "<?php echo esc_attr($value) ?>" />

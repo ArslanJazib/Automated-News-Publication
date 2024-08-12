@@ -1,0 +1,1 @@
+<textarea disabled class="gpt-prompt-output" name="gpt_prompt_output" rows="15" cols="100"> <?php echo $finalPrompt ?> </textarea>

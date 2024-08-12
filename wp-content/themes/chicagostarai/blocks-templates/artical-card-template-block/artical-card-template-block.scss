@@ -1,0 +1,122 @@
+@import '../include-styles';
+
+.artical-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    border-radius: 10px;
+    border: 1px solid #BED5F3;
+    margin-bottom: 20px;
+    box-shadow: none;
+
+    &:focus,
+    &:hover,
+    &:focus-within,
+    &.sorting_1 {
+        box-shadow: none !important;
+    }
+
+    &:first-child {
+        margin-top: 10px;
+        border-top: 1px solid #BED5F3;
+    }
+
+    .artical-content {
+        padding-right: 30px;
+
+        h5 {
+            color: #2D3748;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 26.124px;
+        }
+
+        p {
+            color: #2D3748;
+            font-weight: 400;
+            line-height: 26.124px;
+
+            @include media-breakpoint-down(md) {
+                line-height: 20px;
+            }
+        }
+
+        h4 {
+            @include media-breakpoint-down(lg) {
+                font-size: 20px;
+            }
+        }
+
+        h6 {
+            @include media-breakpoint-down(lg) {
+                font-size: 16px;
+            }
+
+            @include media-breakpoint-down(md) {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .artical-details {
+        text-align: right;
+        margin-left: auto;
+
+        span {
+            color: #2D3748;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 24.366px;
+        }
+
+
+        .artical-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+
+            .btn-dashboard {
+                margin-right: 20px;
+                font-weight: 800;
+                background-color: #fff;
+                color: #005194;
+                border: 1px solid #005194;
+                padding: 8px 15px;
+                min-width: 130px;
+                border-radius: 5px;
+
+                &:hover {
+                    background-color: #005194;
+                    color: #fff;
+                }
+            }
+
+            a {
+                margin-left: 10px;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                border: 1px solid #BED5F3;
+
+                &:hover {
+                    background-color: #005194;
+
+                    i {
+                        color: #fff;
+                    }
+                }
+
+                i {
+                    color: #005194;
+                }
+            }
+        }
+    }
+}

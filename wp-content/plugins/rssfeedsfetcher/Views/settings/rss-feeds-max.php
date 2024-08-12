@@ -1,0 +1,1 @@
+<input type="number" min="1" class="rss-feed-max" name="rss_feed_max[0]" value="" /><br>

@@ -1,0 +1,148 @@
+// section step css
+.section-step {
+  padding: 102px 0 84px;
+  @include media-breakpoint-down(sm) {
+    padding: 52px 0 14px;
+  }
+
+  .main-media {
+    width: 100%;
+    // max-width: 493px;
+    max-width: 558px;
+    position: relative;
+
+    @include media-breakpoint-down(lg) {
+      margin: 0 auto;
+      margin-bottom: 172px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      max-width: 420px;
+    }
+
+    .context-image {
+      position: absolute;
+      width: 100%;
+      max-width: 342px;
+      right: -63px;
+      bottom: -136px;
+      @include media-breakpoint-down(sm) {
+        max-width: 302px;
+        right: -20px;
+        bottom: -117px;
+      }
+      @include media-breakpoint-down(xs) {
+        max-width: 260px;
+        right: 0px;
+        bottom: -129px;
+      }
+    }
+  }
+
+  .step-right-side {
+    padding: 0 0 0 102px;
+
+    @include media-breakpoint-down(md) {
+      padding: 0 0 0 29px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      padding: 0 0 0 2px;
+    }
+
+    h3 {
+      color: #005194;
+    }
+
+    .timeline-content {
+      margin-top: 58px;
+
+      .timeline {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        position: relative;
+        padding-left: 20px;
+
+        .timeline-item {
+          display: flex;
+          gap: 20px;
+          padding-bottom: 6px;
+          padding-left: 25px;
+          position: relative;
+
+          &::before {
+            content: "";
+            width: 2px;
+            height: calc(100% - 20px);
+            background-color: $brand-primary;
+            position: absolute;
+            top: 16px;
+            left: 0;
+          }
+
+          &:nth-child(2n):before {
+            background: transparent;
+            border-right: 2px dashed $brand-primary;
+          }
+
+          &:last-child::before {
+            display: none;
+          }
+
+          .timeline-item-circle {
+            width: 100%;
+            max-width: 46px;
+            height: 45px;
+            background-color: $brand-primary;
+            border-radius: 50%;
+            z-index: 1;
+            position: absolute;
+            top: 18px;
+            left: 1px;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-family: $font-family-base;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: -0.03em;
+            text-align: center;
+          }
+
+          &:last-child .timeline-item-circle {
+            background-color: transparent;
+            border: 1px solid $brand-primary;
+            color: $brand-primary;
+          }
+
+          .timeline-item-content {
+            flex: 1;
+            padding-left: 20px;
+
+            h4 {
+              font-family: $font-family-base;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 30px;
+              letter-spacing: -0.02em;
+              margin-bottom: 9px;
+            }
+
+            p {
+              font-family: $font-family-base;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: -0.02em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

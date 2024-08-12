@@ -1,0 +1,123 @@
+// landing-page footer scss
+
+.landing-footer {
+  padding: 84px 0 40px;
+  background: $brand-primary;
+
+  @include media-breakpoint-down(md) {
+    padding: 45px 0 15px;
+  }
+
+  .media {
+    width: 100%;
+    max-width: 207px;
+    margin-bottom: 27px;
+  }
+
+  .about {
+    width: 100%;
+    max-width: 279px;
+
+    p {
+      font-family: $font-family-base;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: -0.02em;
+      text-align: justified;
+      color: $fill-white;
+    }
+  }
+
+  .links {
+    width: 100%;
+    max-width: 157px;
+    margin-left: auto;
+    @include media-breakpoint-down(md) {
+      margin-left: unset;
+    }
+    h4 {
+      font-family: $font-family-base;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: -0.02em;
+      text-align: justified;
+      color: $fill-white;
+      margin-bottom: 32px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style-type: none;
+        margin-bottom: 24px;
+
+        a {
+          font-family: $font-family-base;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: -0.02em;
+          text-align: justified;
+          color: $fill-white;
+        }
+      }
+    }
+  }
+
+  .copy-write {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 34px 0 0;
+    border-top: 1px solid $fill-white;
+    margin-top: 66px;
+    color: $fill-white;
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+      margin-top: 1px;
+    }
+
+    p {
+      font-weight: 600;
+    }
+
+    .left-side {
+      display: flex;
+      @include media-breakpoint-down(md) {
+        flex-direction: column;
+      }
+
+      li {
+        list-style-type: none;
+        padding: 0 32px 0 0;
+        border-right: 2px solid $fill-white;
+        height: 27px;
+        margin-right: 30px;
+
+        &:last-child {
+          border: none;
+          margin-right: unset;
+        }
+        @include media-breakpoint-down(md) {
+          border-right: none;
+        }
+
+        a {
+          font-family: $font-family-base;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 27px;
+          letter-spacing: -0.02em;
+          text-align: justified;
+          color: $fill-white;
+
+          @include media-breakpoint-down(md) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+    "key": "group_653be9aaee559",
+    "title": "Custom Field History Block",
+    "fields": [
+        {
+            "key": "field_653be9ab9e0bf",
+            "label": "Content",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "aria-label": "",
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_653c0e2e0bb80",
+            "label": "Article History ID",
+            "name": "article_history_id",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "aria-label": "",
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_653beee49e0c0",
+            "label": "History Post Type",
+            "name": "history_post_type",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_6542961385f7c",
+                        "operator": ">",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "aria-label": "",
+            "choices": {
+                "gpt_posts": "GPT Posts",
+                "custom_posts": "Custom Posts",
+                "gmail_posts": "Gmail Posts",
+                "scraped_posts": "Scraped Posts"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_653bef809e0c4",
+            "label": "History Taxonomy",
+            "name": "history_taxonomy",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "aria-label": "",
+            "choices": {
+                "gpt_categories": "GPT Categories",
+                "custom_categories": "Custom Categories",
+                "gmail_categories": "Gmail Categories",
+                "scraped_categories": "Scraped Categories"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_653bef729e0c3",
+            "label": "History Post Cat Category",
+            "name": "history_post_cat_category",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "aria-label": "",
+            "choices": {
+                "from-automated-gmail-inbox-extraction": "From Automated Gmail Inbox Extraction",
+                "from-automated-rss-feed-3": "From Automated RSS Feed",
+                "from-automated-rss-feed": "From Automated RSS Feed",
+                "from-automated-rss-feed-2": "From Automated RSS Feed",
+                "from-custom-post": "From Custom Post",
+                "from-custom-prompt-and-pre-defined-prompt": "From Custom Prompt and Pre-defined prompt",
+                "from-custom-prompt-only": "From Custom Prompt Only",
+                "from-fetch-from-url": "From Fetch from URL",
+                "from-gmail-api-connector": "From Gmail API Connector",
+                "from-manual-gmail-inbox-extraction": "From Manual Gmail Inbox Extraction",
+                "from-manually-scraped": "From Manually Scraped",
+                "from-newsmaster": "From Newsmaster",
+                "from-rss-feed-fetcher": "From RSS Feed Fetcher",
+                "header-menu": "Header Menu",
+                "secondary-menu": "Secondary Menu",
+                "sidebar-menu": "sidebar-menu",
+                "uncategorized": "Uncategorized",
+                "with-paywall": "With Paywall",
+                "without-paywall": "Without Paywall"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_653befc39e0c7",
+            "label": "History Order By",
+            "name": "history_order_by",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "aria-label": "",
+            "choices": {
+                "ID": "ID",
+                "publish_date": "Publish Date"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_653befd89e0c8",
+            "label": "History Order",
+            "name": "history_order",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "aria-label": "",
+            "choices": {
+                "ASC": "ASC",
+                "DESC": "DESC"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_66200b25b5011",
+            "label": "Block CMS Users",
+            "name": "block_cms_users",
+            "type": "user",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "role": [
+                "editor"
+            ],
+            "return_format": "id",
+            "multiple": 1,
+            "allow_null": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/artical-card-template-block"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1713379033
+}

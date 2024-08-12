@@ -1,0 +1,250 @@
+// landing-page get started scss
+.section-get-started {
+  padding: 90px 0;
+
+  h2 {
+    text-align: center;
+  }
+  p {
+    font-family: $font-family-base;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .pricing-plan {
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom: 32px;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style-type: none;
+        font-family: $font-family-base;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+      }
+    }
+    .form-switch {
+      padding-left: unset;
+      text-align: center;
+
+      .form-check-input {
+        width: 70px;
+        height: 36px;
+        margin: 0 16px;
+      }
+    }
+
+    .form-check-input:checked {
+      background-color: $brand-primary;
+    }
+
+    p {
+      padding: 4px 12px;
+      font-family: $font-family-base;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 21px;
+      letter-spacing: -0.02em;
+      width: 100%;
+      max-width: 89px;
+      height: 29px;
+      background: #e7defe;
+      border-radius: 30px;
+      margin-top: 25px;
+      margin-left: 88px;
+    }
+
+    .saved {
+      display: none;
+    }
+  }
+  path {
+    fill: $brand-secondary;
+  }
+  .car-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+
+    @include media-breakpoint-down(xl) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include media-breakpoint-down(lg) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pricing-card {
+      .card-body {
+        padding: 32px 32px;
+        background: $lighted-fill;
+        border-radius: 12px;
+        transition: all 0.3s ease-in-out;
+        min-height: 100%;
+
+        .updates-price {
+          display: none;
+        }
+
+        // .new-price {
+
+        // }
+
+        .cuurent {
+          font-size: 40px !important;
+          font-weight: 600 !important;
+          line-height: 60px;
+          letter-spacing: -0.03em;
+          margin-right: 10px;
+          color: $dark-grayish-blue !important;
+        }
+
+        &:hover {
+          background: $brand-primary;
+          color: $fill-white;
+
+          .price-bold,
+          p,
+          h4 {
+            color: $fill-white;
+          }
+          button {
+            background: $fill-white;
+            color: $brand-primary;
+          }
+          path {
+            fill: $fill-white;
+          }
+
+          .checked {
+            display: block;
+
+            &::before {
+              background-image: url(../images/Vector-white.svg);
+            }
+          }
+        }
+        p {
+          font-family: $font-family-base;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: -0.02em;
+          text-align: left;
+          margin: 11px 0 22px;
+          color: #596780;
+        }
+
+        h4 {
+          font-family: $font-family-base;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 27px;
+          letter-spacing: -0.02em;
+          margin-bottom: 23px;
+          color: #596780;
+          display: flex;
+          align-items: center;
+
+          .price-bold {
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 60px;
+            letter-spacing: -0.03em;
+            margin-right: 10px;
+            color: $dark-grayish-blue;
+          }
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+
+          .lists {
+            list-style-type: none;
+            margin-bottom: 22px;
+            padding-left: 30px;
+            font-family: $font-family-base;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            letter-spacing: -0.02em;
+
+            &::before {
+              content: "";
+              position: absolute;
+              left: -5px;
+              width: 24px;
+              height: 24px;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+          }
+
+          .checked {
+            position: relative;
+            display: none;
+
+            &::before {
+              background-image: url(../images/Vector-white.svg);
+            }
+          }
+
+          .enable {
+            position: relative;
+            display: block;
+
+            &::before {
+              background-image: url(../images/Vector2.svg);
+            }
+          }
+
+          .disable {
+            color: #596780;
+            position: relative;
+
+            &::before {
+              background-image: url(../images/disable.png);
+            }
+          }
+        }
+      }
+
+      button {
+        font-family: $font-family-base;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        width: 100%;
+        height: 52px;
+        padding: 5px 5px;
+        background: $brand-primary;
+        border-radius: 30px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          background: $dark-card;
+        }
+      }
+    }
+
+    .pricing-card.hovered .enable .icon {
+      fill: white;
+    }
+  }
+}

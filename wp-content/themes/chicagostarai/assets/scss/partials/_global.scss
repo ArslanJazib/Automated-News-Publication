@@ -1,0 +1,33 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$font-family-base: 'Montserrat', sans-serif;
+$headings-font-family: 'Montserrat', sans-serif;
+
+// Colors
+$body-color: #333333;
+$brand-primary: #005194;
+$brand-secondary: $brand-primary;
+$btn-hover: lighten($brand-primary, 5);
+$link-color: $brand-primary;
+$link-hover: darken($brand-primary, 20);
+$fill-grey-light: #eff2f8;
+$fill-grey-v2: #e6e6e6;
+$fill-black-v1: #2c2927;
+$fill-red:  #EA2227;
+$fill-white: #FFFFFF;
+$Cadet-blue: #90A3BF;
+$dark-grayish-blue: #0D121F;
+$dark-card: #1A202C;
+$lighted-fill: #F3F5F7;
+$border-fill: #323a49;
+
+
+/* Font Weights for Google Fonts */
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+$fw-extra-bold: 800;
+$fw-black: 900;

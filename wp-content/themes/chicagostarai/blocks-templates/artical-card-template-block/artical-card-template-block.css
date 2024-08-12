@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Font Weights for Google Fonts */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+a {
+  transition: all 0.4s ease-out;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: #005194;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  color: #005194;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.2;
+}
+@media (min-width: 768px) {
+  h6 {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+
+.btn {
+  transition: all 0.4s ease-out;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 14px;
+  line-height: 20px;
+  min-height: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #005194;
+  padding: 5px 27px 7px;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 4px;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  background-color: #005fae;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-grey {
+  transition: all 0.4s ease-out;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 14px;
+  line-height: 20px;
+  min-height: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #005194;
+  padding: 5px 27px 7px;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 4px;
+}
+.btn-grey:hover, .btn-grey:focus {
+  color: #fff;
+  background-color: #005fae;
+  outline: none;
+  box-shadow: none;
+}
+
+.icon-btn {
+  transition: all 0.4s ease-out;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 14px;
+  line-height: 20px;
+  min-height: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #005194;
+  padding: 5px 27px 7px;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 4px;
+  padding-right: 32px;
+}
+.icon-btn:hover, .icon-btn:focus {
+  color: #fff;
+  background-color: #005fae;
+  outline: none;
+  box-shadow: none;
+}
+@media (min-width: 992px) {
+  .icon-btn {
+    padding-right: 45px;
+  }
+}
+.icon-btn:after {
+  transition: all 0.4s ease-out;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  content: "";
+  width: 8px;
+  height: 8px;
+  border: 3px solid #fff;
+  border-bottom: 0;
+  border-left: 0;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+@media only screen and (min-width: 992px) {
+  .icon-btn:after {
+    right: 27px;
+  }
+}
+.icon-btn:hover:after {
+  right: 10px;
+}
+@media (min-width: 992px) {
+  .icon-btn:hover:after {
+    right: 20px;
+  }
+}
+
+.cta-link {
+  color: #005194;
+  font-weight: 600;
+}
+.cta-link:hover {
+  color: #00192e;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 570px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 990px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+.d-none {
+  display: none !important;
+}
+
+@media (min-width: 992px) {
+  .d-lg-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .d-lg-block {
+    display: block !important;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.sec__heading--top {
+  display: inline-block;
+  padding: 5px 25px;
+  border-radius: 10000px;
+  background-color: rgba(0, 81, 148, 0.05);
+  color: #005194;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.sec__head {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto 50px;
+}
+.sec__head--title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec__head--title:before, .sec__head--title:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #005194;
+  display: inline-block;
+}
+.sec__head--title:before {
+  margin-right: 15px;
+}
+.sec__head--title:after {
+  margin-left: 15px;
+}
+
+.artical-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px;
+  border-radius: 10px;
+  border: 1px solid #BED5F3;
+  margin-bottom: 20px;
+  box-shadow: none;
+}
+.artical-wrapper:focus, .artical-wrapper:hover, .artical-wrapper:focus-within, .artical-wrapper.sorting_1 {
+  box-shadow: none !important;
+}
+.artical-wrapper:first-child {
+  margin-top: 10px;
+  border-top: 1px solid #BED5F3;
+}
+.artical-wrapper .artical-content {
+  padding-right: 30px;
+}
+.artical-wrapper .artical-content h5 {
+  color: #2D3748;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26.124px;
+}
+.artical-wrapper .artical-content p {
+  color: #2D3748;
+  font-weight: 400;
+  line-height: 26.124px;
+}
+.artical-wrapper .artical-details {
+  text-align: right;
+}
+.artical-wrapper .artical-details span {
+  color: #2D3748;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24.366px;
+}
+.artical-wrapper .artical-details .artical-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.artical-wrapper .artical-details .artical-controls .btn-dashboard {
+  margin-right: 20px;
+  font-weight: 800;
+  background-color: #fff;
+  color: #005194;
+  border: 1px solid #005194;
+  padding: 8px 15px;
+  min-width: 130px;
+  border-radius: 5px;
+}
+.artical-wrapper .artical-details .artical-controls .btn-dashboard:hover {
+  background-color: #005194;
+  color: #fff;
+}
+.artical-wrapper .artical-details .artical-controls a {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #BED5F3;
+}
+.artical-wrapper .artical-details .artical-controls a:hover {
+  background-color: #005194;
+}
+.artical-wrapper .artical-details .artical-controls a:hover i {
+  color: #fff;
+}
+.artical-wrapper .artical-details .artical-controls a i {
+  color: #005194;
+}/*# sourceMappingURL=artical-card-template-block.css.map */

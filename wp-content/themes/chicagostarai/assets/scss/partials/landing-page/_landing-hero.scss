@@ -1,0 +1,35 @@
+// section hero css
+.section-hero {
+  background-image: url(../images/Hero-bg.png);
+  padding: 85px 0px 31px;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include media-breakpoint-down(xxs) {
+    padding: 18px 0px 5px;
+  }
+
+  p {
+    font-family: $font-family-base;
+    font-size: 24px;
+    font-weight: $fw-regular;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 26px;
+    color: $Cadet-blue;
+  }
+
+  .media {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,1 @@
+<input type="text" name="redirect_uris" value= "<?php echo esc_attr($value) ?>" />

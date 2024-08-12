@@ -1,0 +1,330 @@
+{
+    "key": "group_662ba9eb3191b",
+    "title": "Services Features Section Block",
+    "fields": [
+        {
+            "key": "field_662ff6cc5043b",
+            "label": "Block Name :",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Services Section Block",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_662bfef89a0d3",
+            "label": "Services Section Details",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_662ba9ecf2ebd",
+            "label": "Services Section Title",
+            "name": "features_services_section_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "FEATURES",
+            "maxlength": "",
+            "placeholder": "FEATURES",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_662baa3af2ebe",
+            "label": "Services Section Heading",
+            "name": "features_services_section_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Comprehensive Features To Refine Your Content",
+            "maxlength": "",
+            "placeholder": "Add Services Section Heading Here..",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_662baa76f2ebf",
+            "label": "Services Section Subheading",
+            "name": "features_services_section_subheading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Leverage advanced tools designed to elevate your content creation process, ensuring every piece stands out.",
+            "maxlength": "",
+            "placeholder": "Add Services Subheading Here..",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_662bad5649431",
+            "label": "Tabs Data",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_662bba35ce9fa",
+            "label": "Services Section Tabs",
+            "name": "services_section_tabs",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_662bffb0fee89",
+                    "label": "Tab Button",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0,
+                    "parent_repeater": "field_662bba35ce9fa"
+                },
+                {
+                    "key": "field_662bbbc7e125b",
+                    "label": "Services Section Tab SVG\/Icon",
+                    "name": "services_section_tab_svgicon",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_662bba35ce9fa"
+                },
+                {
+                    "key": "field_662bba81ce9fb",
+                    "label": "Services Section Tab Title",
+                    "name": "services_section_tab_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "Add Tab Button Text Here",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_662bba35ce9fa"
+                },
+                {
+                    "key": "field_662bfe5bd48b9",
+                    "label": "Tab Content",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0,
+                    "parent_repeater": "field_662bba35ce9fa"
+                },
+                {
+                    "key": "field_662bfc6f33cb2",
+                    "label": "Services Section Tab Heading",
+                    "name": "services_section_tab_heading",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Tailored for SEO",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_662bba35ce9fa"
+                },
+                {
+                    "key": "field_662bba8ace9fc",
+                    "label": "Services Section Tab Description",
+                    "name": "services_section_tab_description",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": "",
+                    "parent_repeater": "field_662bba35ce9fa"
+                },
+                {
+                    "key": "field_662bff58ccbc5",
+                    "label": "Side Image",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0,
+                    "parent_repeater": "field_662bba35ce9fa"
+                },
+                {
+                    "key": "field_662bbaaace9fd",
+                    "label": "Services Section Tab Side Image",
+                    "name": "services_section_tab_side_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_662bba35ce9fa"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/add-services-section-block"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1715011931
+}

@@ -1,0 +1,1 @@
+<input type="text" class="gpt-prompt-placeholder" name="gpt_prompt_placeholders[0]" value="" />

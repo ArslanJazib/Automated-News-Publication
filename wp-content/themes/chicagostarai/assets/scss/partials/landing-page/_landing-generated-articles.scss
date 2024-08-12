@@ -1,0 +1,134 @@
+// section generated-articles css
+.generated-articles {
+  padding-top: 100px;
+  background: $dark-grayish-blue;
+  background-image: unset;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 44px;
+  }
+
+  .articles-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 54px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+
+
+
+    .slick-list,
+    .slick-track {
+      display: flex !important;
+    }
+
+    @include media-breakpoint-down(lg) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include media-breakpoint-down(md) {
+      max-width: calc(100% - 68px);
+      margin-top: 30px;
+    }
+
+    .articles-card {
+      background: $dark-card;
+      padding: 18px 15px 14px 28px;
+      border-radius: 15px 15px 35px 15px;
+      margin-bottom: 22px;
+      width: 100%;
+      margin-right: 15px;
+      display: flex;
+      flex-direction: column;
+
+      @include media-breakpoint-down(md) {
+        margin-right: 0;
+      }
+
+      .description {
+        padding-bottom: 34px;
+        border-bottom: 1px solid $border-fill;
+        height: 100%;
+
+        h4 {
+          font-family: $font-family-base;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 29.05px;
+          letter-spacing: -0.04em;
+          margin-bottom: 16px;
+          color: $lighted-fill;
+
+          @include media-breakpoint-down(lg) {
+            font-size: 19px;
+            line-height: 26.05px;
+          }
+        }
+
+        p {
+          font-family: $font-family-base;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19.36px;
+          letter-spacing: -0.04em;
+          color: $lighted-fill;
+        }
+      }
+
+      .read-btn {
+        text-align: -webkit-right;
+        padding-top: 16px;
+
+        a {
+          background: #005194;
+          padding: 5px 9px;
+          height: 52px;
+          border-radius: 30px;
+          font-family: "Montserrat", sans-serif;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 24px;
+          letter-spacing: -0.02em;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          max-width: 198px;
+          color: #ffffff;
+          transition: all 0.3s ease-in-out;
+
+          svg {
+            margin-left: 6px;
+          }
+        }
+      }
+    }
+
+    .slick-next {
+      right: -7px;
+
+      @include media-breakpoint-down(md) {
+        right: -20px;
+      }
+
+      &::before {
+        font-size: 48px;
+        opacity: 1;
+
+
+      }
+    }
+
+    .slick-prev {
+      left: -48px;
+
+      &::before {
+        font-size: 48px;
+        opacity: 1;
+
+
+      }
+    }
+  }
+}

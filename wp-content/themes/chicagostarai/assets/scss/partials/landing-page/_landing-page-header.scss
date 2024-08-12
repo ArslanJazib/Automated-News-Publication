@@ -1,0 +1,140 @@
+// landing page header css
+.landing-site-header {
+  background: $brand-primary;
+  padding: 16px 0;
+  border-bottom: 1px solid #296da5;
+
+  @include media-breakpoint-down(lg) {
+    padding: 14px 14px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    .navbar-toggler {
+      margin-right: 0px;
+      width: 39px;
+      height: 50px;
+      background: transparent;
+      border-radius: unset;
+      display: flex;
+      flex-direction: column;
+      border-radius: 6px;
+      padding: 12px 3px;
+      margin-bottom: 5px;
+      margin-top: 3px;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+
+      .navbar-toggler-icon {
+        height: 4px;
+        width: 30px;
+        background-image: unset;
+        background-color: $fill-grey-light;
+        margin: 2px 0px;
+        border-radius: 6px;
+      }
+    }
+  }
+  @include media-breakpoint-down(xs) {
+    padding: 7px 8px;
+  }
+
+  .header-logo {
+    width: 100%;
+    max-width: 207px;
+
+    @include media-breakpoint-down(xl) {
+      max-width: 167px;
+    }
+
+    @include media-breakpoint-down(xs) {
+      max-width: 153px;
+    }
+
+    a {
+      display: inline-block;
+    }
+  }
+
+  .navbar-nav {
+    width: 100%;
+    max-width: 516px;
+    justify-content: space-between;
+    align-items: center;
+
+    @include media-breakpoint-down(xl) {
+      max-width: 454px;
+    }
+
+    .nav-link {
+      font-family: $font-family-base;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 27px;
+      letter-spacing: -0.02em;
+      color: $fill-white;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: $Cadet-blue;
+      }
+
+      @include media-breakpoint-down(xl) {
+        font-size: 14px;
+        line-height: 26px;
+      }
+    }
+  }
+
+  .header-btn {
+    width: 100%;
+    max-width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include media-breakpoint-down(lg) {
+      margin: 0 auto;
+      flex-direction: column;
+      margin-top: 16px;
+      text-align: center;
+    }
+
+    @include media-breakpoint-down(xl) {
+      max-width: 195px;
+    }
+
+    a {
+      font-family: $font-family-base;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 27px;
+      letter-spacing: -0.02em;
+      color: $fill-white;
+      text-transform: capitalize;
+      margin-right: 30px;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: $Cadet-blue;
+      }
+
+      @include media-breakpoint-down(xl) {
+        font-size: 15px;
+        line-height: 23px;
+        margin-right: 24px;
+      }
+      @include media-breakpoint-down(lg) {
+        margin-bottom: 10px;
+        margin-right: 0px;
+      }
+
+      &:last-child {
+        margin-right: unset;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}

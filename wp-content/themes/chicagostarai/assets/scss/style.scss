@@ -1,0 +1,28 @@
+@import 'partials/_global';
+@import 'partials/_mixins';
+@import 'partials/_elements';
+@import 'partials/_header';
+@import 'partials/_footer';
+@import 'partials/_mobile-nav';
+
+// home
+@import 'partials/home/_hero';
+@import 'partials/home/_about';
+@import 'partials/home/_services';
+@import 'partials/home/_contact';
+@import 'partials/home/_blog-page';
+@import 'partials/_dashboard';
+
+// landing Page
+@import 'partials/landing-page/_landing-global';
+@import 'partials/landing-page/_landing-page-header';
+@import 'partials/landing-page/_landing-hero';
+@import 'partials/landing-page/_landing-step';
+@import 'partials/landing-page/_landing-services';
+@import 'partials/landing-page/_landing-plan';
+@import 'partials/landing-page/_landing-about-us';
+@import 'partials/landing-page/_landing-generated-articles';
+@import 'partials/landing-page/_landing-testimonail';
+@import 'partials/landing-page/_landing-tutorial';
+@import 'partials/landing-page/_landing-get-started';
+@import 'partials/landing-page/_landing-footer';

@@ -1,0 +1,1 @@
+<input type="text" class="rss-feed-url" name="rss_feed_urls[0]" value="" />

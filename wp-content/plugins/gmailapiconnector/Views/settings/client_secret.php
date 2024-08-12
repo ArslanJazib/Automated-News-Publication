@@ -1,0 +1,1 @@
+<input type="password" name="client_secret" value= "<?php echo esc_attr($value) ?>" />

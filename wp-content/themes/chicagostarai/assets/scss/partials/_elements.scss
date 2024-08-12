@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    @include global-font;
+}
+
+a {
+    @include transition-standard;
+    color: $brand-primary;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: $brand-secondary;
+    }
+}
+
+i,
+em {
+    font-style: italic;
+}
+
+b,
+strong {
+    font-weight: $fw-bold;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include heading;
+}
+
+h1 {
+    @include h1;
+}
+
+h2 {
+    @include h2;
+}
+
+h3 {
+    @include h3;
+}
+
+h4 {
+    @include h4;
+}
+
+h5 {
+    @include h5;
+}
+
+h6 {
+    @include h6;
+}
+
+.btn {
+    @include btn
+}
+
+.btn-grey {
+    @include btn(grey)
+}
+
+.icon-btn {
+    @include btn(icon)
+}
+
+.cta-link {
+    color: $link-color;
+    font-weight: $fw-semi-bold;
+
+    &:hover {
+        color: $link-hover;
+    }
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin:  0 auto;
+    padding: 0 15px;
+
+    @include media-breakpoint-up(sm) {
+        max-width: 570px;
+    }
+
+    @include media-breakpoint-up(md) {
+        max-width: 750px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        max-width: 990px;
+    }
+
+    @include media-breakpoint-up(xl) {
+        max-width: 1170px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        max-width: 1170px;
+    }
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-lg-none {
+    @include media-breakpoint-up(lg) {
+        display: none !important;
+    }
+}
+.d-lg-block {
+    @include media-breakpoint-up(lg) {
+        display: block !important;
+    }
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.sec__heading--top {
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 10000px;
+    background-color: rgba($brand-primary, 0.05);
+    color: $brand-primary;
+    margin-bottom: 15px;
+    font-weight: $fw-semi-bold;
+}
+
+.sec__head {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto 50px;
+
+    &--title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        &:before,
+        &:after {
+            content: "";
+            width: 50px;
+            height: 2px;
+            background: $brand-primary;
+            display: inline-block;
+        }
+
+        &:before {
+            margin-right: 15px;
+        }
+        &:after {
+            margin-left: 15px;
+        }
+    }
+}
+
+.play__icon {
+    
+}

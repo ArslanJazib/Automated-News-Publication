@@ -1,0 +1,1 @@
+<input type="text" name="search_query" value= "<?php echo esc_attr($value) ?>" />

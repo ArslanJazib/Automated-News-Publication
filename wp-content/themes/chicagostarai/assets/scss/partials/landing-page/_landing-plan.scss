@@ -1,0 +1,28 @@
+// section plan css
+.section-plan {
+  padding: 75px 0 73px;
+
+  @include media-breakpoint-down(xs) {
+    padding: 34px 0 27px;
+  }
+
+  .inner {
+    padding: 0 2px;
+    text-align: center;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    p {
+      font-family: $font-family-base;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: -0.02em;
+      text-align: center;
+      margin-bottom: 56px;
+    }
+  }
+}

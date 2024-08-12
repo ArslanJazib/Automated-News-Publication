@@ -1,0 +1,1 @@
+<textarea class="gpt-prompt-rules" name="gpt_prompt_rules" rows="4" cols="50"> <?php echo $rules; ?>  </textarea>

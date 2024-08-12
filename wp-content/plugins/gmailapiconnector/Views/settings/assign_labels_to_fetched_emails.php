@@ -1,0 +1,1 @@
+<input type="text" name="assign_labels_to_fetched_emails" value= "<?php echo esc_attr($value) ?>" />

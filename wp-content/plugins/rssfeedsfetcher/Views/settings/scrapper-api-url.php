@@ -1,0 +1,1 @@
+<input type="text" name="scrapper_api_url" value= "<?php echo esc_attr($apiUrl) ?>" />
